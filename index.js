@@ -186,8 +186,8 @@ type Mutation{
 
 var root = {
     restaurant: ({ id }) => {
-      return restaurants.find(restaurant => restaurant.id === id);
-    },
+        return restaurants.find(restaurant => restaurant.id === id);
+      },      
     restaurants: () => {
       return restaurants;
     },
